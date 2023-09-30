@@ -7,15 +7,15 @@ function Header() {
         <header>
             <Wrapper>
                 <div className="appHeader">
-                    <div className="headerleft">
+                    <div className="headerLeft">
                         <Link to="/">
                             <img src={Logo} width={96} alt="" />
                         </Link>
-                       
+                        <Link  to="/favourite" >Favourite</Link>
                     </div>
-                    <Link style={{}} to="/favourite" >Favourite</Link>
+                   
                     <div className="searchBox">
-
+                  
                         <input className="searchField" type="search" />
                     </div>
                 </div>

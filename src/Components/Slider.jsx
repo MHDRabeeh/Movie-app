@@ -25,7 +25,7 @@ const Slider = () => {
         <div className="movieSlider">
             <Splide options={splideOptions}>
                 {
-                    data.map((item) => {
+                    data.results.map((item) => {
 
                         return (<SplideSlide key={item.id}>
                             <img src={`https://image.tmdb.org/t/p/w1280/${item.backdrop_path}`} className="moviePoster" />
